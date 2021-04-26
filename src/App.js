@@ -5,9 +5,13 @@ import './App.css'
 
 const App = () => {
     return (
-        <div>
-            <h2>we're online bitch</h2>
-        </div>
+        <ChatEngine 
+            height="100vh"
+            projectID="b84fbd80-ec9a-440a-bff5-4be4c78ba1b9"
+            userName="javascriptmastery"
+            userSecret="123123"
+               
+        />
     )
 }
 
