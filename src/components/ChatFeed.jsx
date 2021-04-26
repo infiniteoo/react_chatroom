@@ -31,7 +31,7 @@ const ChatFeed = (props) => {
                         }
                     </div>
                     <div className="read-receipts" style={{marginRight: isMyMessage ? '18px' : '0px', marginLeft: isMyMessage ? '0px' : '68px'}}>
-                        read-receipts   
+                        read-receipts 
                     </div>
                 </div>
             )
@@ -40,7 +40,7 @@ const ChatFeed = (props) => {
        
     }
     
-    if(!chat) return 'Loading...';
+    if(!chat) return 'Loading...'
 
     console.log(props)
     return (
