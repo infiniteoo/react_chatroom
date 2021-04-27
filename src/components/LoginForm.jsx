@@ -5,6 +5,7 @@ const LoginForm = () => {
 
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
+    const [error, setError] = useState("")
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -21,7 +22,7 @@ const LoginForm = () => {
            window.location.reload()
 
         } catch (error) {
-            console.log(error);            
+            setError('Oops, incorrect credentials.')           
         }
 
         // error => try with new username ...
@@ -39,7 +40,7 @@ const LoginForm = () => {
                         <button type="submit" className="button">
                             <span>Start Chatting</span>
                         </button>
-
+                        <h2 className="error">{error}</h2>
                     </div>
                 </form>
             </div>
