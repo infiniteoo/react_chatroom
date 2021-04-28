@@ -11,6 +11,9 @@ Utilizing a really out-of-the-box solution, React Chat Engine can get you online
 Live Demo:
 https://chat-r00m.netlify.app/
 
+login: aliceanderson
+password: 123123
+
 ![example_gif](./example.gif)
 
 ## Built with:
